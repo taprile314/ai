@@ -17,3 +17,10 @@ tsconfig.vitest-temp.json
 *.local
 *.tsbuildinfo
 packages/ai/docs
+
+# for git instalation
+!packages/provider/dist
+!packages/provider-utils/dist
+!packages/gateway/dist
+!packages/ai/dist
+!packages/devtools/dist
