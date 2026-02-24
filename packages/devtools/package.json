@@ -38,7 +38,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@ai-sdk/provider": "workspace:*",
+    "@ai-sdk/provider": "github:taprile314/ai#release/instalable-branch-for-milton&path:/packages/provider",
     "@hono/node-server": "^1.13.7",
     "hono": "^4.6.14"
   },
