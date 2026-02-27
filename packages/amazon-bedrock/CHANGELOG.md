@@ -1,5 +1,39 @@
 # @ai-sdk/amazon-bedrock
 
+## 4.0.68
+
+### Patch Changes
+
+- d98d9ba: Migrated deprecated `output_format` parameter to `output_config.format` for structured outputs + Enabled native structured output support for Bedrock Anthropic models via `output_config.format`.
+- Updated dependencies [d98d9ba]
+  - @ai-sdk/anthropic@3.0.49
+
+## 4.0.67
+
+### Patch Changes
+
+- Updated dependencies [2164cdf]
+  - @ai-sdk/anthropic@3.0.48
+
+## 4.0.66
+
+### Patch Changes
+
+- 91f8777: fix(bedrock/groq): pass strict mode for tools
+
+## 4.0.65
+
+### Patch Changes
+
+- a1a8091: fix(bedrock): ensure tool choice option is enforced
+
+## 4.0.64
+
+### Patch Changes
+
+- Updated dependencies [17978c6]
+  - @ai-sdk/anthropic@3.0.47
+
 ## 4.0.63
 
 ### Patch Changes
